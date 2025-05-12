@@ -7,7 +7,7 @@ pipeline {
     
     environment {
         DOCKER_HUB_CREDENTIALS = credentials('docker-hub-credentials')
-        DOCKER_IMAGE = 'your-dockerhub-username/javacalculator'
+        DOCKER_IMAGE = 'nottiey/javacalculator'
         DOCKER_TAG = "latest"
     }
     
